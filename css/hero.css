@@ -16,10 +16,27 @@ section.hero {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+}
+
+@media screen and (min-width: 1300px) {
+    h1.hero-text {
+        color: #fff;
+        font-size: 5em;
+        text-transform: uppercase;
+    }
 }
 
 h1.hero-text {
     color: #fff;
     font-size: 3.5em;
     text-transform: uppercase;
+}
+
+@media screen and (max-width: 480px) {
+    h1.hero-text {
+        color: #fff;
+        font-size: 1.5em;
+        text-transform: uppercase;
+    }
 }
