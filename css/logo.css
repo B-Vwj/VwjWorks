@@ -1,0 +1,12 @@
+/* Logo */
+
+nav.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img.vuelab_logo {
+    width: 3em;
+    height: 3em;
+}
